@@ -47,6 +47,18 @@
             <version>5.3.4</version>
         </dependency>
         <dependency>
+            <groupId>net.jahhan</groupId>
+            <artifactId>jdbc-api</artifactId>
+            <version>1.0.0-RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sourceforge.javydreamercsw</groupId>
+            <artifactId>MySQL-Driver</artifactId>
+            <version>0.1</version>
+        </dependency>
+
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
