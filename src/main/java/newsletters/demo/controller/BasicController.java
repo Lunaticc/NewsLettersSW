@@ -16,6 +16,8 @@ public class BasicController {
         return "admin";
     }
 
+
+
 }
 
 
