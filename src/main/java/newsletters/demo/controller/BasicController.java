@@ -16,7 +16,10 @@ public class BasicController {
         return "admin";
     }
 
-
+    @GetMapping("/Thanks")
+    public String thanksPage(){
+        return "thanks";
+    }
 
 }
 

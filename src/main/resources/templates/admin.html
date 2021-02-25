@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
     <meta charset="UTF-8">
     <!-- Bootstrap CSS -->
@@ -53,7 +53,7 @@
         <div class="container">
             <div class="innerContainer">
                 <div class="lowersContainer">
-                    <form action="/PostEmail" class="createNewMailForm">
+                    <form action="/subscribe/" class="createNewMailForm">
                         <div class="formItem">
                             <label for="emailTo">Recipient: </label>
                             <input id="emailTo" type="email">

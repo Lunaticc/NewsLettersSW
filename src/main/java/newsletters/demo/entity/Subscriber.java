@@ -1,15 +1,11 @@
-package newsletters.demo.entities;
+package newsletters.demo.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Subscriber {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+
     private Integer Id;
     private String Name;
     private String Email;
@@ -23,6 +19,8 @@ public class Subscriber {
         Email = email;
     }
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer getId() {
         return Id;
     }

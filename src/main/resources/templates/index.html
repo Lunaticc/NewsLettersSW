@@ -33,13 +33,31 @@
         </nav>
     </header>
     <main>
-        <form action="#" class="pt-4">
-            <label for="email">Email: </label>
-            <input type="email" id="email">
+        <style>
+            .formItem {
+                display: flex;
+                flex-direction: column;
+                width: 25%;
+                justify-content: center;
+                align-items: flex-start;
+                margin-top: 1rem;
+            }
+        </style>
+
+        <form action="/subscribe/" class="pt-4">
+            <div class="formItem">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="formItem">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="formItem">
+                <button class="btn btn-primary">Register</button>
+            </div>
         </form>
-        <form class="pt-2" action="#">
-            <button class="btn btn-primary">Register</button>
-        </form>
+
     </main>
     <footer>
         <div class="footer">
